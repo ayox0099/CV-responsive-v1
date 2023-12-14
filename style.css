@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    background: #333;
+    height: 100%;
+    width: 15%;
+    position: fixed;
+}
+.container{
+    list-style-type: none;
+    padding: 15px;
+}
+#side{
+    color: white;
+}
+#side:hover{
+    color: red;
+}
+#list{
+    margin-top: 40px;
+    color: white;
+}
+#icon{
+    transition: 0.5s ease-in-out;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+#icon:hover{
+    transform: scale(1.08);
+}
+#icon-logo1{
+    width: 30px;
+    height: 30px;
+}
+#icon-logo2{
+    width: 23px;
+    height: 23px;
+}
+#icon-logo3{
+    width: 20px;
+    height: 20px;
+}
+#icon-logo4{
+    width: 24px;
+    height: 24px;
+}
+#submit-btn {
+    background: #333;
+    border: none;
+    border-radius: 21px;
+    box-shadow: 0px 1px 8px black;
+    cursor: pointer;
+    color: white;
+    font-family: "Raleway SemiBold", sans-serif;
+    height: 42.3px;
+    margin-top: 20px;
+    transition: 0.25s;
+    width: 153px;
+    margin-bottom: 100px;
+}
+#submit-btn:hover {
+    box-shadow: 0px 1px 18px red;
+    background: red ;
+}
+.processing {
+    display: flex;
+    background-color: lightgray;
+    height: 10px;
+    width: 200px;
+    border-radius: 20px;
+}
+.processing .processing-bar {
+    transform: scaleX(0);
+    transition: transform 2s ease-in-out;
+    transform-origin: 0% 0%;
+    background-color: red;
+    border-radius: 20px;
+}
+.processing .aos-animate{
+    transform: scaleX(1);
+}
+.logo{
+    width: 100px;
+}
+#box{
+    transition: 0.5s ease-in-out;
+}
+#box:hover{
+    transform:scale(1.1)
+}
+#nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: none;
+}
+  
+#nav-2{
+    float: left;
+}
+  
+#nav-2 .nav-1{
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 30px;
+    text-decoration: none;
+}
+  
+#nav-2 .nav-1:hover{
+    color: red;
+}
+#tab1{
+    display: flex;
+    
+}
+#gambar{
+    box-shadow: 0px 1px 4px black;
+    transition: 0.5s ease-in-out;
+    width: 300px;
+    height: 300px;
+    border-radius: 25px;
+    display: grid;
+    margin: 10px;
+}
+#gambar:hover{
+    box-shadow: 0px 1px 4px black;
+    transform:scale(1.07)
+}
+#card{
+    display: grid;
+    grid-template-columns: 325px 325px 325px;
+}
+#name{
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    box-shadow: 0px 1px 4px black;
+}
+#email{
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    box-shadow: 0px 1px 4px black;
+}
+#subject{
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    box-shadow: 0px 1px 4px black;
+    height: 45px;
+    width: 490px;
+}
+#message{
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    box-shadow: 0px 1px 4px black;
+    cursor: pointer;
+    height: 150px;
+    width: 490px;
+}
+.item{
+    transition: 0.5s ease-in-out;
+    border-radius: 25px;
+}
+.item-2{
+    transition: 0.5s ease-in-out;
+    border-radius: 25px;
+}
+.item-3{
+    transition: 0.5s ease-in-out;
+    border-radius: 25px;
+    align-items: center;
+}
